@@ -379,7 +379,7 @@ export default function BarathPortfolio() {
                           <CTA variant="ghost" href={profile.github}>
                             View experiments
                           </CTA>
-                          <CTA variant="ghost" href="/Barath_Balamurugan_Resume.pdf">Resume ↗</CTA>
+                          <CTA variant="ghost" href={`${process.env.PUBLIC_URL}/Barath_Balamurugan_Resume.pdf`}>Resume ↗</CTA>
                         </div>
                       </div>
                     </div>

@@ -29,10 +29,6 @@ jobs:
       - name: Build project
         run: npm run build
 
-      # Optional — Add your custom domain (xyz.com)
-      - name: Add CNAME file for custom domain
-        run: echo "barathb.com" > ./build/CNAME
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
